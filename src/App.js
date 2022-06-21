@@ -10,7 +10,19 @@ const App = () => {
   return (
     <div className="App">
       <Header/>
-      <Contact data={contacts}/>
+      <div className='main'>
+        <div className='content'>
+        <div className='container'>
+        <Contact data={contacts[0]}/>
+        <Contact data={contacts[1]}/>
+        <Contact data={contacts[2]}/>
+        <Contact data={contacts[3]}/>
+        <Contact data={contacts[4]}/>
+        <Contact data={contacts[5]}/>
+        </div>
+        </div>
+      </div>
+      <div className='footer'><p>Khoirul Huda &#169; 2022 - React Developer</p></div>
     </div>
   );
 }
