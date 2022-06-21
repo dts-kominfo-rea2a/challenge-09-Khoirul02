@@ -1,0 +1,15 @@
+ .jumbotron {
+    width: 84em;
+    height: 10em;
+    background-image: url("../../public/bg-1.png");
+    color: white;
+    flex-direction: column;
+    font-size: 15px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.group {
+    display: flex;
+    justify-content: center;
+ }
